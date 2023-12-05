@@ -1,5 +1,5 @@
 # My-DSA-problems-Java
-Java codes<br>
+<b>Java codes<b><br>
 sorry for the confusing class names :/<br>
 contains beginner level coding questions which I have prepared<br>
 go through it , refer Docs if you are stuck <br>
