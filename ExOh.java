@@ -18,6 +18,9 @@ public class ExOh{
             if(ch =='x'||ch=='o'){
                 con =true;
                 count ++;
+            }else{
+                con = false;
+                break;
             }
         }if((con==true)&(count%2 ==0)){
             out =true;

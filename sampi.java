@@ -8,7 +8,7 @@ public class sampi {
         System.out.print("Enter sub string: ");
         String b = scanner.nextLine();
         int is = issub(a, b);
-        System.out.println(is);
+        System.out.println("index of the start of substring is ->  "+is);
         scanner.close();
     }
     public static int issub(String A,String B){

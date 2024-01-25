@@ -1,9 +1,9 @@
 
 class Node {
-    int data;
+    String data;
     Node next;
 
-    public Node(int data) {
+    public Node(String data) {
         this.data = data;
         this.next = null;
     }
@@ -16,7 +16,7 @@ public class Linkedlist {
         this.head = null;
     }
 
-    public void insertAtEnd(int data) {
+    public void insertAtEnd(String data) {
         Node newNode = new Node(data);
 
         if (head == null) {
@@ -44,9 +44,9 @@ public class Linkedlist {
 
     public static void main(String[] args) {
         Linkedlist linkedList = new Linkedlist();
-        linkedList.insertAtEnd(1);
-        linkedList.insertAtEnd(2);
-        linkedList.insertAtEnd(3);
+        linkedList.insertAtEnd("Bagio");
+        linkedList.insertAtEnd("Tasio");
+        linkedList.insertAtEnd("Messi");
 
         System.out.println("Linked List: ");
         linkedList.display();
