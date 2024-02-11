@@ -12,9 +12,9 @@ public class ExOh{
         boolean con =false;
         boolean out =false;
         int count =0;
+        String str2 = str.toLowerCase();
         for(int i =0;i<str.length();i++){
-            char ch = str.charAt(i);
-
+            char ch = str2.charAt(i); 
             if(ch =='x'||ch=='o'){
                 con =true;
                 count ++;
