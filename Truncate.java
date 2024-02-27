@@ -1,3 +1,5 @@
+//Leetcode 1816 Truncate Sentence Problem
+
 public class Truncate {
     public String truncateSentence(String s, int k) {
         String [] str = s.split(" ");
