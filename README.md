@@ -1,7 +1,7 @@
 # My-DSA-problems-Java
 <b>Java codes</b><br><br>
 sorry for the confusing class names :/<br>
-contains beginner level coding questions which I have prepared<br>
+contains beginner level and easy Leetcode coding questions which I have prepared<br>
 go through it , google it if you are stuck <br><br>
 <b>
 don't forget to star this this repository :)<b><br><br>
