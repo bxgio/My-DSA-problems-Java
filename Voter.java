@@ -1,4 +1,4 @@
-public class Voter {    //still to learn
+public class Voter {    //Boyer Moore Voter Algorithm
     public static void main(String[] args) {
         int [] nums ={52,5,4,6,7,8,3,3,3,4,4};
         System.out.println(majorityElement(nums));

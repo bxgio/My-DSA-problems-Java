@@ -13,7 +13,7 @@ public class Kadanes {
         return maxSoFar;
     }
     public static void main(String[] args) {
-        int[] nums = {50,-1,-3,-5,-6,-7,-8,-3,0};
+        int[] nums = {5,-1,-3,-4,-6,-7,-8,-3,0};
         System.out.println("maximum = "+ maxSubArraySum(nums));
     }
 }
